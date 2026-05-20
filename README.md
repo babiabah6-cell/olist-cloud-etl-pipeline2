@@ -299,9 +299,11 @@ Aspiring Cloud Data Analyst & Analytics Engineer focused on:
 
 # 🤝 Connect With Me
 
-* LinkedIn
-* GitHub
-* Portfolio Website
+
+
+*  LinkedIn: https://www.linkedin.com/in/babi-abah-061555406/
+* GitHub: https://github.com/babiabah6-cell
+
 
 ---
 
