@@ -1,23 +1,46 @@
 # ☁️ End-to-End Cloud E-Commerce Analytics Pipeline
 
-> Building a production-style cloud analytics solution using Python, Google Cloud Storage, BigQuery, SQL, and Power BI to automate E-Commerce data ingestion, transformation, warehousing, and business intelligence reporting.
+> Production-style cloud analytics solution built with Python, Google Cloud Platform (GCP), BigQuery, SQL, and Power BI for automated E-Commerce reporting and customer intelligence.
+
+![Python](https://img.shields.io/badge/Python-ETL-blue)
+![BigQuery](https://img.shields.io/badge/Google_BigQuery-Data_Warehouse-orange)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![Google Cloud](https://img.shields.io/badge/GCP-Cloud_Analytics-green)
+![SQL](https://img.shields.io/badge/SQL-Analytics-red)
 
 ---
 
 # 📌 Project Overview
 
-This project transforms 100k+ Brazilian E-Commerce records from the Olist marketplace into actionable business intelligence through a fully automated cloud analytics pipeline.
+This project transforms **100k+ Brazilian E-Commerce records** from the Olist marketplace into actionable business intelligence through a fully automated cloud analytics pipeline.
 
 The solution combines:
 
-* Cloud Storage
-* ETL Automation
-* Data Warehousing
-* SQL Transformations
-* Advanced Analytics
-* Interactive Power BI Dashboards
+- Cloud Storage
+- ETL Automation
+- Data Warehousing
+- SQL Transformations
+- Advanced Analytics
+- Interactive Power BI Dashboards
 
 to simulate a real-world analytics engineering workflow used in modern data teams.
+
+---
+
+# 🎯 Project Type
+
+**Portfolio Project | Cloud Analytics Engineering | Business Intelligence | Data Warehousing**
+
+---
+
+# 📊 Dataset Scale
+
+- 100,000+ Orders Processed
+- 300,000+ Order Items Analyzed
+- 9 Relational Datasets Integrated
+- Multi-layer Cloud Data Architecture
+- Automated ETL Pipeline
+- Executive & Operational Reporting
 
 ---
 
@@ -25,17 +48,18 @@ to simulate a real-world analytics engineering workflow used in modern data team
 
 This project was designed to solve key business problems across:
 
-* Executive Sales Monitoring
-* Customer Segmentation
-* Logistics & Delivery Performance
-* Operational Efficiency
+- Executive Sales Monitoring
+- Customer Segmentation
+- Logistics & Delivery Performance
+- Operational Efficiency
 
-Key goals included:
+### Key Goals
 
-* Identifying high-value and at-risk customers
-* Monitoring delivery delays and operational bottlenecks
-* Building scalable cloud-based reporting architecture
-* Automating ingestion and transformation workflows
+- Identify high-value and at-risk customers
+- Monitor delivery delays and operational bottlenecks
+- Build scalable cloud-based reporting architecture
+- Automate ingestion and transformation workflows
+- Deliver executive-level business intelligence dashboards
 
 ---
 
@@ -69,17 +93,21 @@ Developed Python-based ETL workflows to automate:
 
 ✅ Analytics-ready table generation for Power BI reporting
 
-The pipeline processes 9 relational datasets including:
+---
 
-* Customers
-* Orders
-* Payments
-* Reviews
-* Products
-* Sellers
-* Geolocation
-* Order Items
-* Product Translation
+# 📂 Datasets Processed
+
+The pipeline integrates 9 relational datasets including:
+
+- Customers
+- Orders
+- Payments
+- Reviews
+- Products
+- Sellers
+- Geolocation
+- Order Items
+- Product Translation
 
 ---
 
@@ -87,31 +115,31 @@ The pipeline processes 9 relational datasets including:
 
 ## Cloud & Data Engineering
 
-* Google Cloud Storage (GCS)
-* Google BigQuery
-* Python
-* Pandas
-* SQL
+- Google Cloud Storage (GCS)
+- Google BigQuery
+- Python
+- Pandas
+- SQL
 
 ## Business Intelligence
 
-* Power BI
-* DAX
-* Star Schema Modeling
+- Power BI
+- DAX
+- Star Schema Modeling
 
 ## Analytics
 
-* RFM Customer Segmentation
-* KPI Engineering
-* Delivery Performance Analysis
-* Revenue Trend Analysis
-* Operational Analytics
+- RFM Customer Segmentation
+- KPI Engineering
+- Delivery Performance Analysis
+- Revenue Trend Analysis
+- Operational Analytics
 
 ## Development Environment
 
-* Jupyter Notebook
-* VS Code
-* Git & GitHub
+- Jupyter Notebook
+- VS Code
+- Git & GitHub
 
 ---
 
@@ -119,67 +147,76 @@ The pipeline processes 9 relational datasets including:
 
 ## 1️⃣ Executive Sales Dashboard
 
-Provides high-level business monitoring including:
+Provides executive-level visibility into revenue performance, delivery operations, and customer behavior.
 
-* Total Revenue
-* Total Orders
-* Average Order Value
-* Delivery KPIs
-* Revenue Trends
-* State-Level Performance
+### Key Metrics
 
-### Key Insights
+- Total Revenue
+- Total Orders
+- Average Order Value
+- Delivery Performance
+- Revenue Trends
+- Customer Segment Contribution
 
-* Identified seasonal revenue peaks
-* Monitored delayed order trends
-* Tracked operational performance across states
+### Business Insights
+
+- Identified seasonal sales patterns
+- Tracked delayed order impact
+- Monitored state-level revenue performance
+- Analyzed customer segment contributions
+
+![Executive Sales Dashboard](dashboards/executive_sales_dashboard.png)
 
 ---
 
 ## 2️⃣ Customer Segmentation Dashboard
 
-Built an advanced RFM segmentation model to classify customers based on:
-
-* Recency
-* Frequency
-* Monetary Value
+Built using RFM (Recency, Frequency, Monetary) modeling to classify customer behavior and identify retention opportunities.
 
 ### Customer Segments
 
-* Champions
-* Loyal Customers
-* Potential Loyalists
-* At Risk Customers
+- Champions
+- Loyal Customers
+- Potential Loyalists
+- At Risk Customers
 
 ### Business Impact
 
-* Identified high-value customer clusters
-* Highlighted customers likely to churn
-* Supported targeted retention strategies
+- Identified high-value customer clusters
+- Highlighted churn-risk customers
+- Supported retention strategy development
+- Improved customer intelligence reporting
+
+![Customer Segmentation Dashboard](dashboards/customer_segmentation_dashboard.png)
 
 ---
 
-## 3️⃣ Delivery Operations Dashboard
+## 3️⃣ Delivery & Operations Dashboard
 
-Focused on operational and logistics intelligence including:
+Focused on logistics monitoring and operational performance analysis across regions and delivery timelines.
 
-* Delivery Trends
-* Average Delivery Time
-* Delay Monitoring
-* Delivery Distribution
-* State-Level Delivery Performance
+### Operational KPIs
+
+- Delivered Orders
+- Delayed Orders
+- Average Delivery Days
+- State-Level Delivery Performance
+- Delivery Distribution Analysis
 
 ### Operational Insights
 
-* Identified delivery bottlenecks
-* Measured delayed order impact
-* Monitored fulfillment efficiency
+- Identified delivery bottlenecks
+- Measured delayed order impact
+- Monitored fulfillment efficiency
+- Analyzed regional delivery performance
+
+![Delivery Operations Dashboard](dashboards/delivery_operations_dashboard.png)
 
 ---
 
 # 📈 Advanced Analytics
 
-## RFM Modeling
+## RFM Customer Segmentation
 
 Implemented customer segmentation using Python:
 
@@ -207,16 +244,23 @@ olist-cloud-etl-pipeline/
 ├── data/
 │   └── raw/
 │
-├── Script/
+├── scripts/
 │   └── etl/
 │
 ├── dashboards/
+│   ├── executive_sales_dashboard.png
+│   ├── customer_segmentation_dashboard.png
+│   └── delivery_operations_dashboard.png
 │
 ├── docs/
 │
 ├── sql/
 │
+├── notebooks/
+│
 ├── .gitignore
+│
+├── requirements.txt
 │
 └── README.md
 ```
@@ -247,40 +291,87 @@ Connected Power BI to BigQuery for interactive dashboard development.
 
 ---
 
-# 📌 Key Skills Demonstrated
+# ⚡ Project Setup
 
-* Cloud Data Engineering
-* ETL Pipeline Development
-* Data Warehousing
-* SQL Analytics
-* Power BI Dashboarding
-* KPI Development
-* Business Intelligence
-* RFM Customer Analytics
-* Git Version Control
-* Cloud Architecture Design
+## Clone Repository
+
+```bash
+git clone https://github.com/yourusername/olist-cloud-etl-pipeline.git
+cd olist-cloud-etl-pipeline
+```
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Configure Google Cloud
+
+- Create a GCP Project
+- Enable BigQuery API
+- Enable Cloud Storage API
+- Configure Service Account Credentials
+
+## Run ETL Pipeline
+
+```bash
+python scripts/etl/upload_to_gcs.py
+python scripts/etl/load_to_bigquery.py
+```
 
 ---
 
-# 📷 Dashboard Previews
+# 📦 Requirements
 
-> Add screenshots inside the `/dashboards` folder and link them here.
-
-Example:
-
-```markdown
-![Executive Dashboard](dashboards/executive_dashboard.png)
+```txt
+pandas
+google-cloud-storage
+google-cloud-bigquery
+pandas-gbq
+numpy
+jupyter
 ```
+
+---
+
+# ⭐ Business Value Delivered
+
+This project demonstrates how modern analytics teams build scalable cloud reporting systems capable of transforming raw transactional data into executive-level business intelligence.
+
+The solution enables:
+
+- Automated cloud-based reporting
+- Scalable analytics infrastructure
+- Customer retention analysis
+- Operational performance monitoring
+- Executive KPI tracking
+- Interactive business intelligence dashboards
+
+---
+
+# 📌 Key Skills Demonstrated
+
+- Cloud Data Engineering
+- ETL Pipeline Development
+- Data Warehousing
+- SQL Analytics
+- Power BI Dashboarding
+- KPI Development
+- Business Intelligence
+- RFM Customer Analytics
+- Git Version Control
+- Cloud Architecture Design
 
 ---
 
 # 🔮 Future Enhancements
 
-* ETL orchestration using Apache Airflow
-* Real-time dashboard refresh
-* CI/CD integration using GitHub Actions
-* Predictive churn modeling with Scikit-learn
-* Cloud deployment optimization
+- ETL orchestration using Apache Airflow
+- Real-time dashboard refresh
+- CI/CD integration using GitHub Actions
+- Predictive churn modeling with Scikit-learn
+- Cloud deployment optimization
 
 ---
 
@@ -288,23 +379,10 @@ Example:
 
 ## Babi Clovis Abah
 
-Aspiring Cloud Data Analyst & Analytics Engineer focused on:
+- Data Analytics & Cloud Analytics Portfolio Project
+- Power BI Developer | SQL Analyst | Cloud Analytics Enthusiast
 
-* Data Engineering
-* Business Intelligence
-* Cloud Analytics
-* ETL Automation
+### Connect With Me
 
----
-
-# 🤝 Connect With Me
-
-
-
-*  LinkedIn: https://www.linkedin.com/in/babi-abah-061555406/
-* GitHub: https://github.com/babiabah6-cell
-
-
----
-
-⭐ If you found this project valuable, feel free to star the repository.
+- LinkedIn: https://www.linkedin.com/in/babi-abah-061555406/
+- GitHub: https://github.com/babiabah6-cell
