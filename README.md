@@ -211,7 +211,7 @@ Planned future enhancements include:
 Babi Abah
 
 - LinkedIn: https://www.linkedin.com/in/babi-abah-061555406/
-- GitHub: https://github.com/YOUR_USERNAME
+- GitHub: https://github.com/babiabah6-cell
 
 ---
 - GitHub: https://github.com/babiabah6-cell
